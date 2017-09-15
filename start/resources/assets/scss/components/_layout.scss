@@ -1,0 +1,26 @@
+.content {
+
+  margin: 2rem 0;
+
+  @include breakpoint(medium) {
+
+    padding: 2rem;
+    background-color: $white;
+    border-radius: $global-radius;
+
+  }
+
+}
+
+.divider {
+
+  height: 1rem;
+  width: 100%;
+
+}
+
+.brtd {
+
+  border-top: dashed 1px $base;
+
+}
