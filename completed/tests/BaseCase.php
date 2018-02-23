@@ -4,15 +4,15 @@ namespace AppTest;
 
 use App\Utilities\Guard;
 use App\Utilities\Kernel;
-use App\Utilities\Mail\MailManager;
 use AppTest\Traits\Database;
+use App\Utilities\Mail\MailManager;
 
 use Illuminate\Http\Request;
+use PHPUnit\Framework\TestCase;
 use Illuminate\Container\Container;
 
-use PHPUnit_Framework_TestCase;
 
-class BaseCase extends PHPUnit_Framework_TestCase
+class BaseCase extends TestCase
 {
     /**
      * @var Container
